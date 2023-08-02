@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 10px;
+}
+
+
+
+body{
+    background-color: blanchedalmond;
+}
+.form{
+    width: 280px;
+   padding: 10px;
+   margin: auto;
+   background-color: black;
+   border-radius: 10px;
+   text-align: center;
+   position: relative;
+   top: 60px;
+   
+
+}
+.form form input[type="text"]{
+    width: 95%;
+    padding: 10% 3%;
+    background-color: black;
+    border: none;
+    outline: none;
+    text-align: right;
+    color: white;
+    font-size: 4em;
+}
+.form form input[type="button"]{
+width: 65px;
+height: 65px;
+font-size: 1.5em;
+border-radius: 50%;
+border: none;
+cursor: pointer;
+transform-style: preserve-3d;
+
+}
+
+.form form input[type="button"].ac{
+width: 140px;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-color: #9e9e9e;
+}
+
+.form form input[type="button"].z{
+    width: 130px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+   
+    }
+
+ .or{
+    background-color: #f79013;
+    color: white;
+ }   
+ .num{
+    background-color: #333333;
+    color: white;
+ }
